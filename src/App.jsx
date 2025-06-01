@@ -1,15 +1,8 @@
-import BasicEffect from "./challenges/useEffect/exercise/BasicEffect.jsx";
-import CounterEffect from "./challenges/useEffect/exercise/CounterEffect.jsx";
-import FetchingData from "./challenges/useEffect/exercise/FetchDataEffect.jsx";
-
+import CounterReduce from './challenges/useReducer/exercise/CounterReduce';
 function App(){
     return (
     <div>
-        <BasicEffect/>
-        <br/>
-        <CounterEffect/>
-        <br/>
-        <FetchingData/>
+         <CounterReduce />
     </div>);
 
 }
